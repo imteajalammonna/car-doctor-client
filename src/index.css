@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Rubik&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.nav {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 20px;
+}
+
+.nav:hover {
+  color: #FF3811;
+  transition: 0.5s all;
+}
+
+.active {
+  color: #FF3811;
+}
+
+.button {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+  border: 2px solid #FF3811;
+  background-color: #FF3811;
+
+}
+
+.border {
+  border: 2px solid #FF3811;
+  color: #FF3811;
+}
+
+.border-white {
+
+  border: 2px solid white;
+}
+
+.button-fill {
+  color: white;
+  background-color: #FF3811;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #FF3811;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.button-fill:hover {
+  color: #FF3811;
+  background-color: transparent;
+
+}
+
+.arrow {
+  font-size: large;
+  color: white;
+  background-color: #FF3811;
+  padding: 20px;
+  border-radius: 50px;
+  margin-left: 30px;
+  transition: 0.3s ease;
+}
+
+.arrow:hover {
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background-color: #ffffff74;
+  padding: 20px;
+  border-radius: 50px;
+
+}
