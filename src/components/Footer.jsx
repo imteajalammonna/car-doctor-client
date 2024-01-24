@@ -29,7 +29,8 @@ const Footer = () => {
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
             </footer>
-
+            <hr className="mt-14" />
+            <p className="text-center text-xl mt-8 mb-0">© 2024 Car Doctor || All Rights Reserved.</p>
         </div>
     );
 };

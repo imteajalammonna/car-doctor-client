@@ -89,3 +89,21 @@
   border-radius: 50px;
 
 }
+
+.arrow2 {
+  font-size: large;
+  color: white;
+  background-color: #1d1d1d;
+  padding: 20px;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.arrow2:hover {
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background-color: #ffffff74;
+  padding: 20px;
+  border-radius: 50px;
+
+}

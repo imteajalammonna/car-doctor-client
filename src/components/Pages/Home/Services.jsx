@@ -14,7 +14,7 @@ const Services = () => {
 
     }, [])
     return (
-        <div className="space-y-8 my-20 ">
+        <div className="space-y-8 my-20 m-5 md:m-0">
             <Title miniTitle="Service" title="Our Service Area"></Title>
             <div className="my-28 grid grid-cols-1 md:grid-cols-3 gap-8">
                 {services.map(service =>

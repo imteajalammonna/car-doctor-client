@@ -8,6 +8,7 @@ import "./index.css";
 import App from "./App";
 import Home from "./components/Pages/Home/Home";
 import Error from "./components/Pages/Error";
+import CheckOut from "./components/Pages/CheckOut";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
+      },
+      {
+        path: "/checkOut",
+        element:  <CheckOut></CheckOut>
       }
     ]
   },
